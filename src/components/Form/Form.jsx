@@ -14,6 +14,7 @@ export function Form({ onFormSubmit }) {
             className={styles.form}
         >
             <input
+                data-testid="input-form"
                 value={inputValue}
                 onChange={(event) => setInputValue(event.target.value)}
                 className={styles.input}
